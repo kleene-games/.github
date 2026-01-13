@@ -24,13 +24,19 @@ But here's the magic: **you can also create your own adventures.** Generate comp
 
 No separate app. No server. Just conversation-driven storytelling with persistent save states and a full authoring toolkit.
 
+## Installation
+
+```bash
+# Add the marketplace
+/plugin marketplace add kleene-games/kleene
+
+# Install the plugin
+/plugin install kleene@kleene-games
+```
+
 ## Quick Start
 
 ```bash
-# Install the plugin (see kleene repository)
-cd ~/.claude/plugins
-git clone https://github.com/kleene-games/kleene.git
-
 # Play a game
 /kleene play
 
